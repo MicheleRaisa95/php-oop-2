@@ -24,13 +24,17 @@
         return $this->id_product;
     }
       // Metodo per ottenere il nome del prodotto
-    public function getNome() {
+    public function getName() {
         return $this->name;
     }
 
     // Metodo per ottenere il prezzo del prodotto
-    public function getPrezzo() {
+    public function getPrice() {
         return $this->price;
+    }
+    
+    public function getCategory() {
+        return $this->category;
     }
     }
 ?>
